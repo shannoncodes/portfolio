@@ -84,6 +84,11 @@ h4 {
     font-style: italic;
   }
 
+ol {
+    font-family: Futura;
+    color: white;
+  }
+
   /* INTRO */
 
   .intro {
