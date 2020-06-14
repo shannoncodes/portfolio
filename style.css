@@ -1,0 +1,157 @@
+/* HEADER + NAV */
+
+header {
+  background: url(images/double-exp.jpg);
+  background-size: cover;
+  height: auto;
+}
+
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 80px;
+}
+
+nav {
+  height: 50px;
+  color: white;
+  background-color: #f5cac3;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  position: sticky;
+}
+
+nav a {
+  color: #6c757d;
+  font-family: Futura;
+  margin: 10%;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #84a59d;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f7ede2;
+}
+
+hr {
+  background-color: #f4978e;
+  height: 50px;
+}
+
+footer {
+  background: #9d8189;
+  height: 100px;
+  padding: 50px;
+}
+/* TEXT PROPERTIES */
+
+h2 {
+  font-family: Futura;
+  color: #84a59d;
+  text-align: left;
+  text-transform: lowercase;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 50px;
+  }
+
+h3 {
+  font-family: Futura;
+  color: #6d6875;
+}
+
+h4 {
+  font-family: Futura;
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+}
+
+  p { 
+    font-family: Futura;
+  }
+
+  ul {
+    font-family: Futura;
+    font-style: italic;
+  }
+
+  /* INTRO */
+
+  .intro {
+    background: url(images/sunset-cliffs.jpg);
+    background-size: cover;
+    height: 600px;
+    margin: 100px;
+    position: relative;
+  }
+
+.intro-text {
+  background-color: white;
+  border: 2px solid  #84a59d ;
+  color: black;
+  width: 200px;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+/* ABOUT ME */
+
+article section img {
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+  padding: 2px;
+  margin: 20px;
+}
+
+article section {
+  text-align: center;
+  width: 25%;
+  height: auto;
+  margin: 5%;
+}
+
+a {
+  color: #6c757d;
+  font-family: Futura;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #84a59d;
+  text-decoration: none;
+}
+
+/* CONTACT */
+
+.contact {
+  background-color: #f6bd60;
+  color: white;
+  padding: 3%;
+  margin: auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.wrapper {
+  width: 350px;
+  margin: auto;
+}
+
+/* FOOTER */
+
+footer a {
+  color: white;
+}
