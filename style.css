@@ -15,20 +15,19 @@ header img {
 }
 
 nav {
-  height: 50px;
   color: white;
   background-color: #f5cac3;
   font-family: Futura;
   text-transform: uppercase;
   font-size: 16px;
   text-align: center;
-  position: sticky;
+  padding: 25px 0;
 }
 
 nav a {
   color: #6c757d;
   font-family: Futura;
-  margin: 10%;
+  margin: 0 10%;
   text-decoration: none;
 }
 
@@ -52,6 +51,13 @@ footer {
   padding: 50px;
 }
 /* TEXT PROPERTIES */
+h1 {
+  font-family: Futura;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  font-size: 16px;
+}
 
 h2 {
   font-family: Futura;
@@ -84,9 +90,9 @@ h4 {
     font-style: italic;
   }
 
-ol {
+    ol {
     font-family: Futura;
-    color: white;
+    font-color: white;
   }
 
   /* INTRO */
@@ -121,9 +127,10 @@ article section img {
 
 article section {
   text-align: center;
-  width: 25%;
+  width: 60%;
   height: auto;
-  margin: 5%;
+  margin: auto;
+  padding: 25px;
 }
 
 a {
